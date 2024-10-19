@@ -8,6 +8,7 @@ def recursive(num, idx):
 
     if num == B:
         result.append(idx+1)
+        return
     elif num > B:
         return -1
     recursive(num*10 + 1, idx+1)
