@@ -4,7 +4,6 @@ input = sys.stdin.readline
 n = int(input())
 sticks = list(map(int,input().split(" ")))
 
-sticks.sort()
 sticksSum = sum(sticks)
 
 result = []
