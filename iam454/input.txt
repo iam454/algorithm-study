@@ -1,9 +1,2 @@
-a
-tv
-ptoui
-bontres
-zoggax
-wiinq
-eep
-houctuh
-end
+5 2
+1 4 2 5 1
