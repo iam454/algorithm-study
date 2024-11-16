@@ -4,17 +4,14 @@ input = sys.stdin.readline
 H, W = map(int,input().split())
 
 for _ in range(H):
-    cloud = input()
+    cloud = input().strip()
     isExist = False
-    time = 0
+    time = -1
     for c in cloud:
-        if not isExist and c == '.':
-            print('-1', end=" ")
-        elif c == 'c':
+        if c == "c":
             isExist = True
-            print('0', end=" ")
             time = 0
         elif isExist and c == '.':
             time += 1
-            print(str(time), end=' ')
+        print(str(time), end=' ')
     print()
