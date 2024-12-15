@@ -12,7 +12,7 @@ class Main {
                 StringTokenizer st = new StringTokenizer(br.readLine());
                 int a = Integer.parseInt(st.nextToken());
                 int b = Integer.parseInt(st.nextToken());
-                System.out.println((i + 1) + " " + (a + 1) + " " + (b + 1));
+                System.out.println((i + 1) + " " + (a + 1) + " " + (900000000 + b));
             }
         }
     }
