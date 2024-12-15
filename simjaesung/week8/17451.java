@@ -12,7 +12,6 @@ class Main {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 
-        //오랜만에 long 에 당했습니다 ..
 		long ans = 0;
 
 		for(int i = n-1; i >= 0; i--){
