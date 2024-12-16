@@ -1,8 +1,6 @@
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
-        int index1 = 0;
-        int index2 = 0;
         string ans = "";
         string divisor = "";
         if(str1.size() > str2.size()){
