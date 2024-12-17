@@ -1,2 +1,4 @@
-6
-kintex
+3
+ABAB
+AABB
+ABBA
