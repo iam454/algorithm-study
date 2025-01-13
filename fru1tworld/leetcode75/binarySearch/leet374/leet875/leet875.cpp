@@ -12,7 +12,7 @@ public:
             }
             if(time<=h){
                 res=mid;
-                j=mid-1;
+                j=mid-1sss
             }else{
                 i=mid+1;
             }
