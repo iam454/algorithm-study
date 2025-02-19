@@ -1,7 +1,7 @@
 # 문제
 
-2579 | 계단 오르기
-https://www.acmicpc.net/problem/2579
+1662 | 압축
+https://www.acmicpc.net/problem/1662
 
 ## 관련문제
 
