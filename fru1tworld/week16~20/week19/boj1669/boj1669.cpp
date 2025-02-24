@@ -24,4 +24,4 @@ int main(int argc, char *argv[])
         cout << count * 2 - 2;
     }
     return 0;
-}
+r
