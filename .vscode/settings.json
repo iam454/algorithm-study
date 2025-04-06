@@ -13,6 +13,9 @@
     "streambuf": "cpp",
     "string_view": "cpp",
     "tuple": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "string": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   }
 }
