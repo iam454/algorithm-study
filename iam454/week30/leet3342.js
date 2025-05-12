@@ -21,7 +21,7 @@ class MinHeap {
       }
       this.heap[index] = parentElement;
       this.heap[parentIndex] = element;
-      index = [parentIndex];
+      index = parentIndex;
     }
   }
 
@@ -42,7 +42,6 @@ class MinHeap {
   bubbleDown() {
     let index = 0;
     const len = this.heap.length;
-    const element = this.heap[0];
 
     while (true) {
       let leftChildIndex = index * 2 + 1;
